@@ -6,6 +6,7 @@ import (
 	"log"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/template/django/v3"
 )
 
 func init() {
@@ -14,7 +15,9 @@ func init() {
 }
 
 func main() {
-	app := fiber.New()
+	engine := django.New("./views", ".html")
+	app := fiber.New(fiber.Config{Views: engine})
+	app.Static("/static", "./static")
 
 	app.Get("/", handlers.Home)
 
