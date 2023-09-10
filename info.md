@@ -1,5 +1,5 @@
 <h1>Language - go</h1>
-A good manual to set up go on linux 22.04 server <br/>
+Sset up go on linux 22.04 server - https://www.linuxtechi.com/install-go-golang-on-ubuntu-linux/?utm_content=cmp-true<br/>
 
 <h1>Install docker</h1>
 Debian - https://docs.docker.com/engine/install/debian/<br/>
@@ -31,4 +31,4 @@ Htmx - <script src="https://unpkg.com/htmx.org@1.9.5"></script><br/>
 Documentation: https://htmx.org/<br/>
 
 <h1>Requirements:</h1>
-<h3>Go 1.21.1, gcc</h3>
+<h3>Go 1.21.1, gcc, Docker</h3>
