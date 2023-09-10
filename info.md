@@ -1,6 +1,15 @@
 <h1>Language - go</h1>
 A good manual to set up go on linux 22.04 server <br/>
 
+<h1>Install docker</h1>
+Debian - https://docs.docker.com/engine/install/debian/<br/>
+Ubuntu - https://docs.docker.com/engine/install/ubuntu/<br/>
+
+
+<h2>In order to run sqlite3 db gcc must be installed on the server</h2>
+$ sudo apt update <br/>
+$ sudo apt install build-essential <br/>
+
 <h1>Framework - Go Fiber:</h1>
 go get github.com/gofiber/fiber/v2<br/>
 
@@ -21,4 +30,5 @@ Documentation: https://docs.gofiber.io/template/django_v3.x.x/django/<br/>
 Htmx - <script src="https://unpkg.com/htmx.org@1.9.5"></script><br/>
 Documentation: https://htmx.org/<br/>
 
-<h1></h1>
+<h1>Requirements:</h1>
+<h3>Go 1.21.1, gcc</h3>
