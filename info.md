@@ -32,3 +32,6 @@ Documentation: https://htmx.org/<br/>
 
 <h1>Requirements:</h1>
 <h3>Go 1.21.1, gcc, Docker</h3>
+
+<h1>Docker commands</h1>
+Run test app = docker run -d -p 80:3000 --restart unless-stopped apii
