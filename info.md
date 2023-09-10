@@ -1,3 +1,6 @@
+<h1>Language - go</h1>
+A good manual to set up go on linux 22.04 server <br/>
+
 <h1>Framework - Go Fiber:</h1>
 go get github.com/gofiber/fiber/v2<br/>
 
